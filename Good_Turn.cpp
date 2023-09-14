@@ -208,7 +208,7 @@ signed main()
     cin.tie(NULL);
     cout.tie(NULL);
     int t = 1;
-    // cin >> t;
+     cin >> t;
     for (int i = 1; i <= t; i++)
     {
         eprintf("--- Case #%d start ---\n", i);
@@ -229,10 +229,7 @@ signed main()
 
 void solve()
 {
-    int x, y;
-    cin>>x>>y;
-    if (y >= x)
-        py;
-    else
-        pn;
+    int x,y;
+    cin >> x >> y;
+    (x+y>6)?py:pn;
 }

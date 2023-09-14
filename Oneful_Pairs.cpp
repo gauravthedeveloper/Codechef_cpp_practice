@@ -229,9 +229,9 @@ signed main()
 
 void solve()
 {
-    int x, y;
-    cin>>x>>y;
-    if (y >= x)
+    int a, b;
+    cin>>a>>b;
+    if (a + b + (a * b) == 111)
         py;
     else
         pn;

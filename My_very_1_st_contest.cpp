@@ -229,10 +229,11 @@ signed main()
 
 void solve()
 {
-    int x, y;
-    cin>>x>>y;
-    if (y >= x)
-        py;
-    else
-        pn;
+    int t,a,b,user_sub,sec_out;
+	cin>>t>>a>>b;
+    user_sub=t-a;
+    sec_out=t-a-b;
+	
+	
+	cout<<user_sub<<" "<<sec_out;
 }
