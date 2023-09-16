@@ -230,8 +230,8 @@ signed main()
 void solve()
 {
     int x, y;
-    cin>>x>>y;
-    if (y >= x)
+    cin >> x >> y;
+    if (y > x)
         py;
     else
         pn;
