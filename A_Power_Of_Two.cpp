@@ -33,6 +33,7 @@ leetcode : https://leetcode.com/spexcher/
 #include <bitset>
 #include <array>
 #include <iomanip>
+#include <bits/stdc++.h>
 using namespace std;
 #ifndef ONLINE_JUDGE
 #define eprintf(...)                  \
@@ -231,5 +232,8 @@ void solve()
 {
     int n;
     cin >> n;
-    if(__builtin_popcountll(n) == 1)py;else pn;
+    if (__builtin_popcountll(n) == 1)
+        py;
+    else
+        pn;
 }
