@@ -1,5 +1,5 @@
 #define MOD 1000000007
-/*---------------------------------------------------Start Snippet--------------------------------------------------------------------
+/*-------------------------------Start Snippet---------------------------------
 AUTHOR: spexcher
 Name: Gourab Modak
 email: spexcher@gmail.com
@@ -9,7 +9,7 @@ linkedin : https://www.linkedin.com/in/gourabmodak/
 codeforces : https://codeforces.com/profile/spexcher/
 codechef : https://www.codechef.com/users/spexcher/
 leetcode : https://leetcode.com/spexcher/
-------------------------------------------------------------------------------------------------------------------------------------------------------*/
+------------------------------------------------------------------------------------*/
 #include <iostream>
 #include <cstdio>
 #include <cstdlib>
@@ -196,7 +196,7 @@ signed main()
 
     return 0;
 }
-//-----------------------------------------------------------End Snippet--------------------------------------------------------------------------
+//-----------------------------------------End Snippet----------------------------------------
 
 void solve()
 {
