@@ -33,7 +33,6 @@ leetcode : https://leetcode.com/spexcher/
 #include <bitset>
 #include <array>
 #include <iomanip>
-#include <bits/stdc++.h>
 using namespace std;
 #ifndef ONLINE_JUDGE
 #define eprintf(...)                  \
@@ -169,29 +168,6 @@ ll fpow(ll x, ll y)
     return res;
 }
 ll inv(ll a, ll p = mod) { return fpow(a, p - 2); }
-// Utility functions
-template <typename T>
-void iv(vector<T> &v, int n)
-{
-    // ll n = v.size();
-    fo(i, n) cin >> v[i];
-}
-template <typename T>
-void pv(vector<T> &v, int n)
-{
-    // ll n = v.size();
-    fo(i, n) cout << v[i] << " ";
-    cout << "\n";
-}
-template <typename T>
-ll sv(vector<T> &v, int n)
-{
-    // ll n = v.size();
-    ll s = 0;
-    fo(i, n) s += v[i];
-    return s;
-}
-
 // conversions
 ll str_to_num(string s)
 {
