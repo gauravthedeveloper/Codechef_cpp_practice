@@ -200,15 +200,10 @@ signed main()
 
 void solve()
 {
-    string s = "aaaabbbcccbbbddbbbdddffff";
-    char a[s.length() + 1];
-    for (int i = 0; i < s.length(); i++)
-    {
-        a[i] = s[i];
-    }
-    
-    a[s.length()] = '\0';
-    int newlen = unique(a, a + strlen(a)) - a;
-    a[newlen] = '\0';
-    cout << a << "\n";
+    int a,y;
+    cin>>a>>y;
+    int sum=0;
+    sum+=y;
+    if(y>a) sum+=y-a;
+    cout<<sum<<endl;
 }

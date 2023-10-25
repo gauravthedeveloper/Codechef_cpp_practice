@@ -200,15 +200,13 @@ signed main()
 
 void solve()
 {
-    string s = "aaaabbbcccbbbddbbbdddffff";
-    char a[s.length() + 1];
-    for (int i = 0; i < s.length(); i++)
-    {
-        a[i] = s[i];
-    }
-    
-    a[s.length()] = '\0';
-    int newlen = unique(a, a + strlen(a)) - a;
-    a[newlen] = '\0';
-    cout << a << "\n";
+    int a;
+    cin >> a;
+    if (a % 2 == 0 && a % 7 == 0)
+        cout << "Alice";
+    else if (a % 2 == 1 && a % 9 == 0)
+        cout << "Bob";
+    else
+        cout << "Charlie";
+    cout << nl;
 }
